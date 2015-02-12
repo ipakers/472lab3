@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4289774724</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\advanced_display.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\display.o</file>
+      <file>$PROJ_DIR$\startup_ewarm.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rit128x96x4.pbi</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\rit128x96x4.c</file>
+      <file>$PROJ_DIR$\startup.c</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\Lab3.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>C:\StellarisWare\inc\hw_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\LM3S8962.icf</file>
+      <file>C:\StellarisWare\boards\ek-lm3s8962\drivers\rit128x96x4.h</file>
+      <file>$PROJ_DIR$\driverlib\cpu.h</file>
+      <file>$PROJ_DIR$\driverlib\cpu.c</file>
+      <file>$PROJ_DIR$\driverlib\driverlib-cm3.sgxx</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\keypad.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>C:\StellarisWare\inc\lm3s8962.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\keypad.pbi</file>
+      <file>$PROJ_DIR$\keypad.c</file>
+      <file>$PROJ_DIR$\display.h</file>
+      <file>$PROJ_DIR$\keypad.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.pbi</file>
+      <file>C:\StellarisWare\driverlib\cpu.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>C:\StellarisWare\boards\Thang Anji Isaac\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>C:\StellarisWare\driverlib\sysctl.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rit128x96x4.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cpu.o</file>
+      <file>$PROJ_DIR$\driverlib\gpio.h</file>
+      <file>$PROJ_DIR$\driverlib\ssi.h</file>
+      <file>$PROJ_DIR$\driverlib\pin_map.h</file>
+      <file>$PROJ_DIR$\driverlib\sysctl.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cpu.pbi</file>
+      <file>$PROJ_DIR$\driverlib\debug.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>C:\StellarisWare\inc\hw_sysctl.h</file>
+      <file>C:\StellarisWare\inc\hw_ssi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\advanced_display.pbi</file>
+      <file>C:\StellarisWare\inc\hw_memmap.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\advanced_display.o</file>
+      <file>$PROJ_DIR$\advanced_display.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\display.pbi</file>
+      <file>$PROJ_DIR$\display.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_ewarm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 4 3 11 19 22 13 36 31 34 35 33 12 46 44 15 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 4 3 11 19 22 13 36 31 34 35 33 12 46 44 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rit128x96x4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 51 48 12 46 41 43 42 44 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 51 48 12 46 41 43 42 38 44 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 4 3 11 19 22 13 36 31 34 35 33 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 4 3 11 19 22 13 36 31 34 35 33 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driverlib\cpu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\keypad.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 4 3 11 19 22 13 36 31 34 35 33 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 4 3 11 19 22 13 36 31 34 35 33 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 14 57 40 1 21 55 39 56 9 54 52 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\advanced_display.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 4 3 11 19 22 13 36 31 34 35 33 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 4 3 11 19 22 13 36 31 34 35 33 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 4 3 11 19 22 13 36 31 34 35 33 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 4 3 11 19 22 13 36 31 34 35 33 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
